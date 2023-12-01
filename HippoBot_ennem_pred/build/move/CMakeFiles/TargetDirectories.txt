@@ -1,0 +1,12 @@
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/uninstall.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/move_uninstall.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/waypoint_publisher.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/ament_cmake_python_symlink_move.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/ament_cmake_python_build_move_egg.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/test.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/edit_cache.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/rebuild_cache.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/list_install_components.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/install.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/install/local.dir
+/home/danielaquabot/ros2_aquabot_ws/build/move/CMakeFiles/install/strip.dir

@@ -1,0 +1,160 @@
+[0.185s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/danielaquabot/ros2_aquabot_ws/src/Enemy Ship Predict -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.326s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.492s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.492s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.497s] -- Detecting CXX compiler ABI info
+[0.630s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.685s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.687s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.911s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.983s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.158s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.164s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.176s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.306s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.308s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.462s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.533s] -- Looking for pthread.h
+[1.656s] -- Looking for pthread.h - found
+[1.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.745s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.746s] -- Found Threads: TRUE  
+[2.315s] -- Checking for module 'eigen3'
+[2.330s] --   Found eigen3, version 3.4.0
+[2.377s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.377s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.397s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.415s] -- Checking for module 'flann'
+[2.430s] --   Found flann, version 1.9.1
+[2.480s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.481s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.529s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.537s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.719s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.719s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.722s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.737s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.770s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.786s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.914s] -- Found X11: /usr/include   
+[2.914s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.028s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.028s] -- Looking for gethostbyname
+[3.110s] -- Looking for gethostbyname - found
+[3.110s] -- Looking for connect
+[3.213s] -- Looking for connect - found
+[3.213s] -- Looking for remove
+[3.334s] -- Looking for remove - found
+[3.334s] -- Looking for shmat
+[3.411s] -- Looking for shmat - found
+[3.411s] -- Looking for IceConnectionNumber in ICE
+[3.532s] -- Looking for IceConnectionNumber in ICE - found
+[3.614s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.616s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.619s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.622s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.642s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.653s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.660s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.666s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.796s] -- Checking for module 'libusb-1.0'
+[3.821s] --   Found libusb-1.0, version 1.0.25
+[3.872s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.874s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.874s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.953s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.953s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.953s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.183s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.192s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.202s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.420s] -- Found Qhull version 8.0.2
+[4.643s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.841s] -- looking for PCL_COMMON
+[4.843s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.843s] -- looking for PCL_KDTREE
+[4.844s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.844s] -- looking for PCL_OCTREE
+[4.846s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.846s] -- looking for PCL_SEARCH
+[4.847s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.847s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.849s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.849s] -- looking for PCL_FILTERS
+[4.850s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.851s] -- looking for PCL_2D
+[4.851s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.851s] -- looking for PCL_GEOMETRY
+[4.851s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.852s] -- looking for PCL_IO
+[4.853s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.853s] -- looking for PCL_FEATURES
+[4.855s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.855s] -- looking for PCL_ML
+[4.856s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.857s] -- looking for PCL_SEGMENTATION
+[4.858s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.859s] -- looking for PCL_VISUALIZATION
+[4.860s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.860s] -- looking for PCL_SURFACE
+[4.862s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.862s] -- looking for PCL_REGISTRATION
+[4.864s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.864s] -- looking for PCL_KEYPOINTS
+[4.866s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.866s] -- looking for PCL_TRACKING
+[4.867s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.868s] -- looking for PCL_RECOGNITION
+[4.869s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.869s] -- looking for PCL_STEREO
+[4.870s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.871s] -- looking for PCL_APPS
+[4.872s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.873s] -- looking for PCL_IN_HAND_SCANNER
+[4.873s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.873s] -- looking for PCL_MODELER
+[4.874s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.874s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.874s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.875s] -- looking for PCL_OUTOFCORE
+[4.876s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.877s] -- looking for PCL_PEOPLE
+[4.878s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.879s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.886s] -- Configuring done
+[4.898s] -- Generating done
+[4.902s] -- Build files have been written to: /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor
+[4.941s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/danielaquabot/ros2_aquabot_ws/src/Enemy Ship Predict -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor
+[4.944s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor -- -j6 -l6
+[5.012s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor -- -j6 -l6
+[5.081s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor
+[5.116s] -- Install configuration: ""
+[5.116s] -- Execute custom install script
+[5.116s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/lib/enemy_predictor/enemy_ship_predictor.py
+[5.127s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/ament_index/resource_index/package_run_dependencies/enemy_predictor
+[5.137s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/ament_index/resource_index/parent_prefix_path/enemy_predictor
+[5.150s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/ament_prefix_path.sh
+[5.158s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/ament_prefix_path.dsv
+[5.171s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/path.sh
+[5.182s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/path.dsv
+[5.191s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.bash
+[5.202s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.sh
+[5.212s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.zsh
+[5.222s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.dsv
+[5.231s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/package.dsv
+[5.241s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/ament_index/resource_index/packages/enemy_predictor
+[5.251s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.261s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/cmake/enemy_predictorConfig.cmake
+[5.276s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/cmake/enemy_predictorConfig-version.cmake
+[5.288s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/package.xml
+[5.316s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor

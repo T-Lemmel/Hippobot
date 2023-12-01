@@ -1,0 +1,35 @@
+[0.893s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller': PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/prefix_override:/home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build install --record /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
+[1.144s] running egg_info
+[1.144s] creating ../build/my_robot_controller/my_robot_controller.egg-info
+[1.144s] writing ../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.145s] writing dependency_links to ../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.145s] writing entry points to ../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.145s] writing requirements to ../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.145s] writing top-level names to ../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.145s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.147s] reading manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.148s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] creating /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build
+[1.148s] creating /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build/lib
+[1.148s] creating /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.148s] copying my_robot_controller/__init__.py -> /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.149s] running install
+[1.149s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.149s]   warnings.warn(
+[1.149s] running install_lib
+[1.150s] creating /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.150s] copying /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.150s] byte-compiling /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.151s] running install_data
+[1.151s] creating /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/share/ament_index
+[1.151s] creating /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[1.151s] creating /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.151s] copying resource/my_robot_controller -> /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.152s] copying package.xml -> /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/share/my_robot_controller
+[1.152s] running install_egg_info
+[1.153s] Copying ../build/my_robot_controller/my_robot_controller.egg-info to /home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.154s] running install_scripts
+[1.175s] writing list of installed files to '/home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/install.log'
+[1.205s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller' returned '0': PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/prefix_override:/home/danielaquabot/ros2_aquabot_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/build install --record /home/danielaquabot/ros2_aquabot_ws/src/build/my_robot_controller/install.log --single-version-externally-managed

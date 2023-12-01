@@ -1,0 +1,17 @@
+[1.155s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller': PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller/prefix_override:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller/build --no-deps install_data
+[1.519s] running develop
+[1.727s] running egg_info
+[1.728s] writing my_robot_controller.egg-info/PKG-INFO
+[1.728s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.728s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.728s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.728s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.729s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.730s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.732s] running build_ext
+[1.733s] Creating /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.733s] Installing test_node script to /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/my_robot_controller
+[1.734s] 
+[1.734s] Installed /home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller
+[1.734s] running install_data
+[1.771s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller' returned '0': PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller/prefix_override:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller/build --no-deps install_data

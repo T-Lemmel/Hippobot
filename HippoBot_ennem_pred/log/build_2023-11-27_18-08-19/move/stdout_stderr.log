@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target waypoint_publisher[0m
+[100%] Built target waypoint_publisher
+[100%] Built target ament_cmake_python_symlink_move
+running egg_info
+writing move.egg-info/PKG-INFO
+writing dependency_links to move.egg-info/dependency_links.txt
+writing top-level names to move.egg-info/top_level.txt
+reading manifest file 'move.egg-info/SOURCES.txt'
+writing manifest file 'move.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_move_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/waypoint_publisher
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/pythonpath.sh
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move/__init__.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/place_frame.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/tracker.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/CHANGELOG.rst
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/LICENSE
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/MANIFEST.in
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__init__.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/__init__.cpython-310.pyc
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/_version.cpython-310.pyc
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/conversion.cpython-310.pyc
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/error.cpython-310.pyc
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/_version.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/conversion.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/error.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/launch/config.rviz
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/launch/launch.py
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/ament_index/resource_index/package_run_dependencies/move
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/ament_index/resource_index/parent_prefix_path/move
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/path.sh
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/path.dsv
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.bash
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.sh
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.zsh
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.dsv
+-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/package.dsv
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/ament_index/resource_index/packages/move
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/cmake/moveConfig.cmake
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/cmake/moveConfig-version.cmake
+-- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/package.xml
+Listing '/home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move'...

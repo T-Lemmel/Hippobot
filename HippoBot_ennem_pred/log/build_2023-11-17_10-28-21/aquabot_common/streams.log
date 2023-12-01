@@ -1,0 +1,93 @@
+[0.206s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/danielaquabot/ros2_aquabot_ws/ros2_aquabot_common_ws -DCMAKE_INSTALL_PREFIX=/home/danielaquabot/ros2_aquabot_ws/install/aquabot_common
+[0.219s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.382s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.254s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.295s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.675s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.684s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.684s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.888s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.897s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.909s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.134s] -- Found Qhull version 8.0.2
+[2.339s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.537s] -- looking for PCL_COMMON
+[2.537s] -- looking for PCL_KDTREE
+[2.538s] -- looking for PCL_OCTREE
+[2.538s] -- looking for PCL_SEARCH
+[2.538s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.539s] -- looking for PCL_FILTERS
+[2.539s] -- looking for PCL_2D
+[2.539s] -- looking for PCL_GEOMETRY
+[2.540s] -- looking for PCL_IO
+[2.540s] -- looking for PCL_FEATURES
+[2.541s] -- looking for PCL_ML
+[2.541s] -- looking for PCL_SEGMENTATION
+[2.542s] -- looking for PCL_VISUALIZATION
+[2.542s] -- looking for PCL_SURFACE
+[2.543s] -- looking for PCL_REGISTRATION
+[2.543s] -- looking for PCL_KEYPOINTS
+[2.544s] -- looking for PCL_TRACKING
+[2.544s] -- looking for PCL_RECOGNITION
+[2.545s] -- looking for PCL_STEREO
+[2.545s] -- looking for PCL_APPS
+[2.546s] -- looking for PCL_IN_HAND_SCANNER
+[2.546s] -- looking for PCL_MODELER
+[2.547s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.547s] -- looking for PCL_OUTOFCORE
+[2.547s] -- looking for PCL_PEOPLE
+[2.621s] -- Configuring done
+[2.661s] -- Generating done
+[2.664s] -- Build files have been written to: /home/danielaquabot/ros2_aquabot_ws/build/aquabot_common
+[2.692s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/danielaquabot/ros2_aquabot_ws/ros2_aquabot_common_ws -DCMAKE_INSTALL_PREFIX=/home/danielaquabot/ros2_aquabot_ws/install/aquabot_common
+[2.695s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/aquabot_common -- -j6 -l6
+[2.743s] [35m[1mConsolidate compiler generated dependencies of target cloud_reader[0m
+[2.779s] [100%] Built target cloud_reader
+[2.792s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/aquabot_common -- -j6 -l6
+[2.835s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/aquabot_common
+[2.842s] -- Install configuration: ""
+[2.843s] -- Execute custom install script
+[2.843s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/gps2pose.py
+[2.843s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/waypoint_tracker.py
+[2.844s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/CHANGELOG.rst
+[2.844s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/LICENSE
+[2.844s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/MANIFEST.in
+[2.844s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/__init__.py
+[2.844s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/__pycache__/__init__.cpython-310.pyc
+[2.854s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/__pycache__/_version.cpython-310.pyc
+[2.863s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/__pycache__/conversion.cpython-310.pyc
+[2.872s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/__pycache__/error.cpython-310.pyc
+[2.881s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/_version.py
+[2.881s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/conversion.py
+[2.881s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/error.py
+[2.881s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/Cmd.yaml
+[2.882s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/cloud.rviz
+[2.882s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/cloud_launch.py
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/cmd_launch.py
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/config.rviz
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/cloud_reader
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/ament_index/resource_index/package_run_dependencies/aquabot_common
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/ament_index/resource_index/parent_prefix_path/aquabot_common
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.sh
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.dsv
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/path.sh
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/path.dsv
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.bash
+[2.883s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.sh
+[2.884s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.zsh
+[2.884s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.dsv
+[2.884s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/package.dsv
+[2.895s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/ament_index/resource_index/packages/aquabot_common
+[2.896s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.896s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig.cmake
+[2.896s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig-version.cmake
+[2.896s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/package.xml
+[2.899s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/aquabot_common

@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller",
+        "/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/danielaquabot/vrx_ws/install/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller",
+        "/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/danielaquabot/vrx_ws/install/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

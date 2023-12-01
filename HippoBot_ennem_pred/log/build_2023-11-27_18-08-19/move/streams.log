@@ -1,0 +1,55 @@
+[0.270s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/move -- -j6 -l6
+[0.368s] [35m[1mConsolidate compiler generated dependencies of target waypoint_publisher[0m
+[0.415s] [100%] Built target waypoint_publisher
+[0.505s] [100%] Built target ament_cmake_python_symlink_move
+[0.838s] running egg_info
+[0.840s] writing move.egg-info/PKG-INFO
+[0.840s] writing dependency_links to move.egg-info/dependency_links.txt
+[0.841s] writing top-level names to move.egg-info/top_level.txt
+[0.847s] reading manifest file 'move.egg-info/SOURCES.txt'
+[0.848s] writing manifest file 'move.egg-info/SOURCES.txt'
+[0.968s] [100%] Built target ament_cmake_python_build_move_egg
+[1.011s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/move -- -j6 -l6
+[1.140s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/move
+[1.149s] -- Install configuration: ""
+[1.150s] -- Execute custom install script
+[1.150s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/waypoint_publisher
+[1.150s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/pythonpath.sh
+[1.151s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/pythonpath.dsv
+[1.156s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/PKG-INFO
+[1.156s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.156s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.156s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move-1.0.0-py3.10.egg-info/top_level.txt
+[1.156s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move/__init__.py
+[1.156s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/place_frame.py
+[1.157s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/tracker.py
+[1.157s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/CHANGELOG.rst
+[1.157s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/LICENSE
+[1.157s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/MANIFEST.in
+[1.157s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__init__.py
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/__init__.cpython-310.pyc
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/_version.cpython-310.pyc
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/conversion.cpython-310.pyc
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/__pycache__/error.cpython-310.pyc
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/_version.py
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/conversion.py
+[1.158s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/lib/move/utm/error.py
+[1.159s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/launch/config.rviz
+[1.159s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/launch/launch.py
+[1.159s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/ament_index/resource_index/package_run_dependencies/move
+[1.159s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/ament_index/resource_index/parent_prefix_path/move
+[1.159s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/ament_prefix_path.sh
+[1.159s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/ament_prefix_path.dsv
+[1.160s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/path.sh
+[1.160s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/environment/path.dsv
+[1.161s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.bash
+[1.161s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.sh
+[1.161s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.zsh
+[1.161s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/local_setup.dsv
+[1.161s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/package.dsv
+[1.173s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/ament_index/resource_index/packages/move
+[1.173s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/cmake/moveConfig.cmake
+[1.173s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/cmake/moveConfig-version.cmake
+[1.174s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/move/share/move/package.xml
+[1.233s] Listing '/home/danielaquabot/ros2_aquabot_ws/install/move/local/lib/python3.10/dist-packages/move'...
+[1.325s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/move

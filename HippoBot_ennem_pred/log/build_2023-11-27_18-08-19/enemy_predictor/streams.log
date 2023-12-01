@@ -1,0 +1,23 @@
+[0.350s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor -- -j6 -l6
+[0.904s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor -- -j6 -l6
+[1.087s] Invoking command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor
+[1.094s] -- Install configuration: ""
+[1.097s] -- Execute custom install script
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/lib/enemy_predictor/enemy_ship_predictor.py
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/ament_index/resource_index/package_run_dependencies/enemy_predictor
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/ament_index/resource_index/parent_prefix_path/enemy_predictor
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/ament_prefix_path.sh
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/ament_prefix_path.dsv
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/path.sh
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/environment/path.dsv
+[1.097s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.bash
+[1.098s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.sh
+[1.098s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.zsh
+[1.098s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/local_setup.dsv
+[1.098s] -- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/package.dsv
+[1.119s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/ament_index/resource_index/packages/enemy_predictor
+[1.122s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.122s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/cmake/enemy_predictorConfig.cmake
+[1.122s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/cmake/enemy_predictorConfig-version.cmake
+[1.124s] -- Up-to-date symlink: /home/danielaquabot/ros2_aquabot_ws/install/enemy_predictor/share/enemy_predictor/package.xml
+[1.133s] Invoked command in '/home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/danielaquabot/ros2_aquabot_ws/build/enemy_predictor

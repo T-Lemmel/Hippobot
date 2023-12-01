@@ -1,0 +1,93 @@
+[2.462s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/danielaquabot/ros2_aquabot_ws']
+[2.463s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/danielaquabot/ros2_aquabot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8ecfdbebf0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8ecfee9db0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8ecfee9db0>>)
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.550s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/danielaquabot/ros2_aquabot_ws'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'ignore'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'ignore_ament_install'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extensions ['colcon_pkg']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'colcon_pkg'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extensions ['colcon_meta']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'colcon_meta'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extensions ['ros']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'ros'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extensions ['cmake', 'python']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'cmake'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'python'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extensions ['python_setup_py']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws) by extension 'python_setup_py'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/build) by extension 'ignore'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/build) ignored
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/install) by extension 'ignore'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/install) ignored
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/log) by extension 'ignore'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/log) ignored
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'ignore'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'ignore_ament_install'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extensions ['colcon_pkg']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'colcon_pkg'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extensions ['colcon_meta']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'colcon_meta'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extensions ['ros']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'ros'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extensions ['cmake', 'python']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'cmake'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'python'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extensions ['python_setup_py']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools) by extension 'python_setup_py'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extensions ['ignore', 'ignore_ament_install']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'ignore'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'ignore_ament_install'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extensions ['colcon_pkg']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'colcon_pkg'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extensions ['colcon_meta']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'colcon_meta'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extensions ['ros']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'ros'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extensions ['cmake', 'python']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'cmake'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'python'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extensions ['python_setup_py']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/ros_management_tools/qtcreator) by extension 'python_setup_py'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'ignore'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'ignore_ament_install'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extensions ['colcon_pkg']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'colcon_pkg'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extensions ['colcon_meta']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'colcon_meta'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extensions ['ros']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'ros'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extensions ['cmake', 'python']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'cmake'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'python'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extensions ['python_setup_py']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src) by extension 'python_setup_py'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/build) by extension 'ignore'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/build) ignored
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/install) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/install) ignored
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/log) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/log) ignored
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extension 'ignore_ament_install'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extensions ['colcon_pkg']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extension 'colcon_pkg'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extensions ['colcon_meta']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extension 'colcon_meta'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extensions ['ros']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller) by extension 'ros'
+[2.580s] DEBUG:colcon.colcon_core.package_identification:Package '/home/danielaquabot/ros2_aquabot_ws/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[2.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

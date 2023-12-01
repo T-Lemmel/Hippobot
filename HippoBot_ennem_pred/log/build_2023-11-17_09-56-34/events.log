@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (aquabot_common) JobQueued: {'identifier': 'aquabot_common', 'dependencies': OrderedDict()}
+[0.000167] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000246] (aquabot_common) JobStarted: {'identifier': 'aquabot_common'}
+[0.080268] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099168] (-) TimerEvent: {}
+[0.170780] (aquabot_common) JobProgress: {'identifier': 'aquabot_common', 'progress': 'cmake'}
+[0.171136] (aquabot_common) Command: {'cmd': ['/usr/bin/cmake', '/home/danielaquabot/ros2_aquabot_ws/ros2_aquabot_common_ws', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/danielaquabot/ros2_aquabot_ws/install/aquabot_common'], 'cwd': '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/danielaquabot/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/danielaquabot/vrx_ws/install/share/wamv_description/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/worlds:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds:/home/danielaquabot/vrx_ws/install/share/aquabot_description/models:/home/danielaquabot/vrx_ws/install/share/vrx_gazebo/models:/home/danielaquabot/vrx_ws/install/share/'), ('LANGUAGE', 'en_GB:en'), ('USER', 'danielaquabot'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danielaquabot/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/danielaquabot'), ('ros2_workspaces', '/opt/ros/humble /home/danielaquabot/vrx_ws /home/danielaquabot/ros2_aquabot_ws'), ('OLDPWD', '/home/danielaquabot/ros2_aquabot_ws/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danielaquabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danielaquabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1744,unix/Ubuntu22:/tmp/.ICE-unix/1744'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8335d554_f9db_4063_8575_6e004aafec53'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R0ECE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danielaquabot/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.201200] (-) TimerEvent: {}
+[0.301551] (-) TimerEvent: {}
+[0.325817] (aquabot_common) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401861] (-) TimerEvent: {}
+[0.449502] (aquabot_common) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.464409] (aquabot_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502199] (-) TimerEvent: {}
+[0.544164] (aquabot_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.555302] (aquabot_common) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.556783] (aquabot_common) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.558190] (aquabot_common) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.561946] (aquabot_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.604973] (-) TimerEvent: {}
+[0.647283] (aquabot_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.658484] (aquabot_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.658855] (aquabot_common) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.659366] (aquabot_common) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.663837] (aquabot_common) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.705182] (-) TimerEvent: {}
+[0.805427] (-) TimerEvent: {}
+[0.850051] (aquabot_common) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.911364] (-) TimerEvent: {}
+[0.936864] (aquabot_common) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.012714] (-) TimerEvent: {}
+[1.013662] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller/build', '--no-deps', 'install_data'], 'cwd': '/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/danielaquabot/vrx_ws/install/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/danielaquabot/vrx_ws/install/share/wamv_description/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/worlds:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds:/home/danielaquabot/vrx_ws/install/share/aquabot_description/models:/home/danielaquabot/vrx_ws/install/share/vrx_gazebo/models:/home/danielaquabot/vrx_ws/install/share/', 'LANGUAGE': 'en_GB:en', 'USER': 'danielaquabot', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/danielaquabot/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib', 'ros1_workspaces': '', 'PS1_ori': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'HOME': '/home/danielaquabot', 'ros2_workspaces': '/opt/ros/humble /home/danielaquabot/vrx_ws /home/danielaquabot/ros2_aquabot_ws', 'OLDPWD': '/home/danielaquabot/ros2_aquabot_ws/', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '1768', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/danielaquabot/vrx_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'danielaquabot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'danielaquabot', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Ubuntu22:@/tmp/.ICE-unix/1744,unix/Ubuntu22:/tmp/.ICE-unix/1744', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8335d554_f9db_4063_8575_6e004aafec53', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R0ECE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.159', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/danielaquabot/vrx_ws/install:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller/prefix_override:/home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/danielaquabot/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/danielaquabot/vrx_ws/install'}, 'shell': False}
+[1.115215] (-) TimerEvent: {}
+[1.143603] (aquabot_common) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.151877] (aquabot_common) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.168275] (aquabot_common) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.193838] (aquabot_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.215485] (-) TimerEvent: {}
+[1.222916] (aquabot_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.315564] (-) TimerEvent: {}
+[1.324435] (aquabot_common) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.329520] (aquabot_common) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.356784] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[1.415912] (-) TimerEvent: {}
+[1.462980] (aquabot_common) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.499847] (aquabot_common) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.516220] (-) TimerEvent: {}
+[1.553379] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.553570] (my_robot_controller) StdoutLine: {'line': b'creating my_robot_controller.egg-info\n'}
+[1.553811] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[1.553984] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[1.554131] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[1.554239] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[1.554344] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[1.554505] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.555172] (aquabot_common) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.557703] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.557907] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.559510] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[1.559853] (my_robot_controller) StdoutLine: {'line': b'Creating /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[1.560791] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[1.560939] (my_robot_controller) StdoutLine: {'line': b'Installed /home/danielaquabot/ros2_aquabot_ws/build/my_robot_controller\n'}
+[1.561233] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.561379] (my_robot_controller) StdoutLine: {'line': b'creating /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/share/ament_index\n'}
+[1.561472] (my_robot_controller) StdoutLine: {'line': b'creating /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/share/ament_index/resource_index\n'}
+[1.561607] (my_robot_controller) StdoutLine: {'line': b'creating /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[1.561681] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[1.561745] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /home/danielaquabot/ros2_aquabot_ws/install/my_robot_controller/share/my_robot_controller\n'}
+[1.571841] (aquabot_common) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.616337] (-) TimerEvent: {}
+[1.637390] (my_robot_controller) CommandEnded: {'returncode': 0}
+[1.671024] (aquabot_common) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.672601] (aquabot_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.716997] (-) TimerEvent: {}
+[1.724870] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[1.754342] (aquabot_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.755684] (aquabot_common) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.817178] (-) TimerEvent: {}
+[1.919699] (-) TimerEvent: {}
+[2.020816] (-) TimerEvent: {}
+[2.137514] (-) TimerEvent: {}
+[2.237776] (-) TimerEvent: {}
+[2.342290] (-) TimerEvent: {}
+[2.345711] (aquabot_common) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.361649] (aquabot_common) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.407241] (aquabot_common) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.407417] (aquabot_common) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.439266] (aquabot_common) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[2.442716] (-) TimerEvent: {}
+[2.458526] (aquabot_common) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.474007] (aquabot_common) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.524693] (aquabot_common) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.524999] (aquabot_common) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.542862] (-) TimerEvent: {}
+[2.570975] (aquabot_common) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[2.578700] (aquabot_common) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[2.643081] (-) TimerEvent: {}
+[2.743636] (-) TimerEvent: {}
+[2.757206] (aquabot_common) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[2.757581] (aquabot_common) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[2.761443] (aquabot_common) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[2.773499] (aquabot_common) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.803482] (aquabot_common) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[2.840625] (aquabot_common) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[2.844052] (-) TimerEvent: {}
+[2.944572] (-) TimerEvent: {}
+[2.977978] (aquabot_common) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.978629] (aquabot_common) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[3.055307] (-) TimerEvent: {}
+[3.059114] (aquabot_common) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[3.059315] (aquabot_common) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[3.136495] (aquabot_common) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[3.136727] (aquabot_common) StdoutLine: {'line': b'-- Looking for connect\n'}
+[3.155581] (-) TimerEvent: {}
+[3.213860] (aquabot_common) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[3.214231] (aquabot_common) StdoutLine: {'line': b'-- Looking for remove\n'}
+[3.255701] (-) TimerEvent: {}
+[3.291000] (aquabot_common) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[3.291404] (aquabot_common) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[3.356964] (-) TimerEvent: {}
+[3.367683] (aquabot_common) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[3.367984] (aquabot_common) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[3.448299] (aquabot_common) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[3.457343] (-) TimerEvent: {}
+[3.557826] (-) TimerEvent: {}
+[3.564075] (aquabot_common) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[3.566789] (aquabot_common) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[3.569250] (aquabot_common) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[3.572457] (aquabot_common) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[3.658692] (aquabot_common) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[3.658880] (-) TimerEvent: {}
+[3.667237] (aquabot_common) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[3.671899] (aquabot_common) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[3.679985] (aquabot_common) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[3.759337] (-) TimerEvent: {}
+[3.780719] (aquabot_common) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.797881] (aquabot_common) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.847281] (aquabot_common) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.849269] (aquabot_common) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[3.849476] (aquabot_common) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.859562] (-) TimerEvent: {}
+[3.922716] (aquabot_common) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[3.922888] (aquabot_common) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.923030] (aquabot_common) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[3.961092] (-) TimerEvent: {}
+[4.062169] (-) TimerEvent: {}
+[4.127091] (aquabot_common) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.134412] (aquabot_common) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.141331] (aquabot_common) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.165297] (-) TimerEvent: {}
+[4.274359] (-) TimerEvent: {}
+[4.337487] (aquabot_common) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.389646] (-) TimerEvent: {}
+[4.490333] (-) TimerEvent: {}
+[4.539189] (aquabot_common) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.593601] (-) TimerEvent: {}
+[4.698729] (-) TimerEvent: {}
+[4.733585] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[4.744066] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[4.744483] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[4.745941] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[4.746237] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[4.747512] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[4.747754] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[4.749142] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[4.749436] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[4.750724] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[4.750945] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[4.752211] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[4.752539] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[4.752841] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[4.753101] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[4.753481] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[4.753682] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[4.755567] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[4.756021] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[4.757429] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[4.757781] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[4.758990] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[4.759223] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[4.760415] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[4.760965] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[4.762245] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.762577] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[4.763759] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[4.764052] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[4.765273] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[4.765573] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[4.766771] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[4.767067] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[4.768256] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[4.768534] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[4.769885] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[4.770242] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[4.771463] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[4.771689] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[4.772916] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[4.773688] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[4.774009] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[4.774162] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[4.774489] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[4.774647] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[4.775744] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[4.775877] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[4.777178] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[4.777485] (aquabot_common) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[4.778750] (aquabot_common) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[4.779722] (aquabot_common) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[4.830025] (-) TimerEvent: {}
+[4.852763] (aquabot_common) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.931814] (-) TimerEvent: {}
+[4.946592] (aquabot_common) StdoutLine: {'line': b'-- Generating done\n'}
+[4.950054] (aquabot_common) StdoutLine: {'line': b'-- Build files have been written to: /home/danielaquabot/ros2_aquabot_ws/build/aquabot_common\n'}
+[4.968453] (aquabot_common) CommandEnded: {'returncode': 0}
+[4.969688] (aquabot_common) JobProgress: {'identifier': 'aquabot_common', 'progress': 'build'}
+[4.971024] (aquabot_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common', '--', '-j6', '-l6'], 'cwd': '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/danielaquabot/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/danielaquabot/vrx_ws/install/share/wamv_description/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/worlds:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds:/home/danielaquabot/vrx_ws/install/share/aquabot_description/models:/home/danielaquabot/vrx_ws/install/share/vrx_gazebo/models:/home/danielaquabot/vrx_ws/install/share/'), ('LANGUAGE', 'en_GB:en'), ('USER', 'danielaquabot'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danielaquabot/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/danielaquabot'), ('ros2_workspaces', '/opt/ros/humble /home/danielaquabot/vrx_ws /home/danielaquabot/ros2_aquabot_ws'), ('OLDPWD', '/home/danielaquabot/ros2_aquabot_ws/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danielaquabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danielaquabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1744,unix/Ubuntu22:/tmp/.ICE-unix/1744'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8335d554_f9db_4063_8575_6e004aafec53'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R0ECE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danielaquabot/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[5.032035] (aquabot_common) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o\x1b[0m\n'}
+[5.032227] (-) TimerEvent: {}
+[5.132458] (-) TimerEvent: {}
+[5.233931] (-) TimerEvent: {}
+[5.335494] (-) TimerEvent: {}
+[5.438736] (-) TimerEvent: {}
+[5.547532] (-) TimerEvent: {}
+[5.648073] (-) TimerEvent: {}
+[5.748514] (-) TimerEvent: {}
+[5.849153] (-) TimerEvent: {}
+[5.950009] (-) TimerEvent: {}
+[6.054116] (-) TimerEvent: {}
+[6.165564] (-) TimerEvent: {}
+[6.265958] (-) TimerEvent: {}
+[6.366623] (-) TimerEvent: {}
+[6.467083] (-) TimerEvent: {}
+[6.580282] (-) TimerEvent: {}
+[6.721131] (-) TimerEvent: {}
+[6.822149] (-) TimerEvent: {}
+[6.924507] (-) TimerEvent: {}
+[7.026711] (-) TimerEvent: {}
+[7.149236] (-) TimerEvent: {}
+[7.250706] (-) TimerEvent: {}
+[7.351463] (-) TimerEvent: {}
+[7.457335] (-) TimerEvent: {}
+[7.558046] (-) TimerEvent: {}
+[7.668101] (-) TimerEvent: {}
+[7.771133] (-) TimerEvent: {}
+[7.894581] (-) TimerEvent: {}
+[7.995775] (-) TimerEvent: {}
+[8.096266] (-) TimerEvent: {}
+[8.207270] (-) TimerEvent: {}
+[8.307775] (-) TimerEvent: {}
+[8.410336] (-) TimerEvent: {}
+[8.568504] (-) TimerEvent: {}
+[8.748098] (-) TimerEvent: {}
+[8.850398] (-) TimerEvent: {}
+[8.977834] (-) TimerEvent: {}
+[9.093443] (-) TimerEvent: {}
+[9.230198] (-) TimerEvent: {}
+[9.331526] (-) TimerEvent: {}
+[9.431961] (-) TimerEvent: {}
+[9.537909] (-) TimerEvent: {}
+[9.648726] (-) TimerEvent: {}
+[9.759474] (-) TimerEvent: {}
+[9.862405] (-) TimerEvent: {}
+[9.975826] (-) TimerEvent: {}
+[10.091517] (-) TimerEvent: {}
+[10.207983] (-) TimerEvent: {}
+[10.368748] (-) TimerEvent: {}
+[10.518955] (-) TimerEvent: {}
+[10.619518] (-) TimerEvent: {}
+[10.731839] (-) TimerEvent: {}
+[10.864543] (-) TimerEvent: {}
+[10.968017] (-) TimerEvent: {}
+[11.142929] (-) TimerEvent: {}
+[11.282786] (-) TimerEvent: {}
+[11.423799] (-) TimerEvent: {}
+[11.536056] (-) TimerEvent: {}
+[11.640180] (-) TimerEvent: {}
+[11.774660] (-) TimerEvent: {}
+[11.877194] (-) TimerEvent: {}
+[12.015398] (-) TimerEvent: {}
+[12.126406] (-) TimerEvent: {}
+[12.310212] (-) TimerEvent: {}
+[12.439276] (-) TimerEvent: {}
+[12.542110] (-) TimerEvent: {}
+[12.643313] (-) TimerEvent: {}
+[12.757005] (-) TimerEvent: {}
+[12.863004] (-) TimerEvent: {}
+[12.963588] (-) TimerEvent: {}
+[13.065650] (-) TimerEvent: {}
+[13.239846] (-) TimerEvent: {}
+[13.351066] (-) TimerEvent: {}
+[13.481490] (-) TimerEvent: {}
+[13.599034] (-) TimerEvent: {}
+[13.707334] (-) TimerEvent: {}
+[13.808374] (-) TimerEvent: {}
+[13.936100] (-) TimerEvent: {}
+[14.147340] (-) TimerEvent: {}
+[14.285229] (-) TimerEvent: {}
+[14.390884] (-) TimerEvent: {}
+[14.499900] (-) TimerEvent: {}
+[14.602065] (-) TimerEvent: {}
+[14.724584] (-) TimerEvent: {}
+[14.903793] (-) TimerEvent: {}
+[15.005233] (-) TimerEvent: {}
+[15.118808] (-) TimerEvent: {}
+[15.221227] (-) TimerEvent: {}
+[15.323548] (-) TimerEvent: {}
+[15.430081] (-) TimerEvent: {}
+[15.569370] (-) TimerEvent: {}
+[15.751658] (-) TimerEvent: {}
+[15.855893] (-) TimerEvent: {}
+[15.957123] (-) TimerEvent: {}
+[16.057833] (-) TimerEvent: {}
+[16.158864] (-) TimerEvent: {}
+[16.287922] (-) TimerEvent: {}
+[16.400157] (-) TimerEvent: {}
+[16.525556] (-) TimerEvent: {}
+[16.630113] (-) TimerEvent: {}
+[16.730397] (-) TimerEvent: {}
+[16.833819] (-) TimerEvent: {}
+[16.936689] (-) TimerEvent: {}
+[17.038874] (-) TimerEvent: {}
+[17.153127] (-) TimerEvent: {}
+[17.288143] (-) TimerEvent: {}
+[17.394081] (-) TimerEvent: {}
+[17.513739] (-) TimerEvent: {}
+[17.544661] (aquabot_common) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cloud_reader\x1b[0m\n'}
+[17.616748] (-) TimerEvent: {}
+[17.717297] (-) TimerEvent: {}
+[17.818101] (-) TimerEvent: {}
+[17.922662] (-) TimerEvent: {}
+[18.024237] (-) TimerEvent: {}
+[18.124823] (-) TimerEvent: {}
+[18.226987] (-) TimerEvent: {}
+[18.329879] (-) TimerEvent: {}
+[18.434259] (-) TimerEvent: {}
+[18.579985] (-) TimerEvent: {}
+[18.685851] (-) TimerEvent: {}
+[18.793715] (-) TimerEvent: {}
+[18.900684] (-) TimerEvent: {}
+[19.001252] (-) TimerEvent: {}
+[19.118833] (-) TimerEvent: {}
+[19.219629] (-) TimerEvent: {}
+[19.328161] (-) TimerEvent: {}
+[19.510859] (-) TimerEvent: {}
+[19.613172] (-) TimerEvent: {}
+[19.775777] (-) TimerEvent: {}
+[19.891761] (-) TimerEvent: {}
+[19.967659] (aquabot_common) StdoutLine: {'line': b'[100%] Built target cloud_reader\n'}
+[19.982083] (aquabot_common) CommandEnded: {'returncode': 0}
+[19.992105] (-) TimerEvent: {}
+[20.014356] (aquabot_common) JobProgress: {'identifier': 'aquabot_common', 'progress': 'install'}
+[20.024828] (aquabot_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common'], 'cwd': '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/danielaquabot/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/danielaquabot/vrx_ws/install/share/wamv_description/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/models:/home/danielaquabot/vrx_ws/install/share/aquabot_gz/worlds:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models/tmp:/home/danielaquabot/vrx_ws/install/share/vrx_gz/models:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/danielaquabot/vrx_ws/install/share/vrx_gz/worlds:/home/danielaquabot/vrx_ws/install/share/aquabot_description/models:/home/danielaquabot/vrx_ws/install/share/vrx_gazebo/models:/home/danielaquabot/vrx_ws/install/share/'), ('LANGUAGE', 'en_GB:en'), ('USER', 'danielaquabot'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/danielaquabot/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/danielaquabot'), ('ros2_workspaces', '/opt/ros/humble /home/danielaquabot/vrx_ws /home/danielaquabot/ros2_aquabot_ws'), ('OLDPWD', '/home/danielaquabot/ros2_aquabot_ws/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '1768'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danielaquabot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'danielaquabot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Ubuntu22:@/tmp/.ICE-unix/1744,unix/Ubuntu22:/tmp/.ICE-unix/1744'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8335d554_f9db_4063_8575_6e004aafec53'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R0ECE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/danielaquabot/ros2_aquabot_ws/build/aquabot_common'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/danielaquabot/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/danielaquabot/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[20.032189] (aquabot_common) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.032711] (aquabot_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.033136] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/gps2pose.py\n'}
+[20.044290] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/waypoint_tracker.py\n'}
+[20.055646] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/CHANGELOG.rst\n'}
+[20.064247] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/LICENSE\n'}
+[20.073937] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/MANIFEST.in\n'}
+[20.082394] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/__init__.py\n'}
+[20.091123] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/_version.py\n'}
+[20.093288] (-) TimerEvent: {}
+[20.099993] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/conversion.py\n'}
+[20.108627] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/utm/error.py\n'}
+[20.117962] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/Cmd.yaml\n'}
+[20.126432] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/cloud.rviz\n'}
+[20.135646] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/cloud_launch.py\n'}
+[20.144600] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/cmd_launch.py\n'}
+[20.155942] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/launch/config.rviz\n'}
+[20.168118] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/lib/aquabot_common/cloud_reader\n'}
+[20.177707] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/ament_index/resource_index/package_run_dependencies/aquabot_common\n'}
+[20.188001] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/ament_index/resource_index/parent_prefix_path/aquabot_common\n'}
+[20.193839] (-) TimerEvent: {}
+[20.197655] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.sh\n'}
+[20.206638] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.dsv\n'}
+[20.215140] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/path.sh\n'}
+[20.224189] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/environment/path.dsv\n'}
+[20.233218] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.bash\n'}
+[20.243146] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.sh\n'}
+[20.255253] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.zsh\n'}
+[20.266073] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/local_setup.dsv\n'}
+[20.275914] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/package.dsv\n'}
+[20.285355] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/ament_index/resource_index/packages/aquabot_common\n'}
+[20.294071] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.294225] (-) TimerEvent: {}
+[20.302855] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig.cmake\n'}
+[20.311580] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig-version.cmake\n'}
+[20.320605] (aquabot_common) StdoutLine: {'line': b'-- Symlinking: /home/danielaquabot/ros2_aquabot_ws/install/aquabot_common/share/aquabot_common/package.xml\n'}
+[20.331507] (aquabot_common) CommandEnded: {'returncode': 0}
+[20.394903] (-) TimerEvent: {}
+[20.492854] (aquabot_common) JobEnded: {'identifier': 'aquabot_common', 'rc': 0}
+[20.493801] (-) EventReactorShutdown: {}
