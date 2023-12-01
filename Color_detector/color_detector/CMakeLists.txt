@@ -17,12 +17,9 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-
-install(PROGRAMS scripts/detector.py
-        DESTINATION lib/${PROJECT_NAME})
-install(PROGRAMS scripts/detector2.py
-        DESTINATION lib/${PROJECT_NAME})
 install(PROGRAMS scripts/final1.py
+        DESTINATION lib/${PROJECT_NAME})
+install(PROGRAMS scripts/final0.py
         DESTINATION lib/${PROJECT_NAME})
 
 

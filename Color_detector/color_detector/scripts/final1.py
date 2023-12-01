@@ -3,7 +3,7 @@
 import rclpy
 from std_msgs.msg import Bool
 from std_msgs.msg import Float64
-from std_msgs.msg import Pose
+from geometry_msgs.msg import Pose,PoseStamped
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from math import cos,sin
@@ -23,7 +23,7 @@ def analyse(mask):
                 a = a+1
                 if (b==-1):
                     b=j
-    if (a>200):
+    if (a>150):
         vitesse = 0
     elif (a>90):
         vitesse = 1200
@@ -32,7 +32,7 @@ def analyse(mask):
     else:
         vitesse = 12000
 
-    alpha=0.007*((b-m/2)/360)**3
+    alpha=0.02*((b-m/2)/360)**3
 
 
     return vitesse,alpha,a
@@ -50,8 +50,8 @@ class ImagePublisher:
         self.thrust_pub = self.node.create_publisher(Float64, '/wamv/thrusters/main/thrust', 10)
         self.boue_pub = self.node.create_publisher(Bool, '/buoy/detect', 10)
         self.enemy_pub = self.node.create_publisher(Bool, '/ennemy/detect', 10)
-        self.enemi_pose  = self.node.create_publisher(Pose, '/ennemy_pose', 10)
-        self.enemi_dist  = self.node.create_publisher(Float64, '/ennemy_pose', 10)
+        self.enemi_pose  = self.node.create_publisher(PoseStamped, '/ennemy_pose', 10)
+        self.enemi_dist  = self.node.create_publisher(Float64, '/ennemy_dist', 10)
 
         # Créer un subscriber pour le topic image
         subscription = self.node.create_subscription(
@@ -86,7 +86,7 @@ class ImagePublisher:
         msg_vit = Float64()
         msg_buoy = Bool()
         msg_enemy = Bool()
-        self.msg_enemi_pose = Pose()
+        self.msg_enemi_pose = PoseStamped()
         self.msg_enemi_dist = Float64()
         if self.ouuu<-0.0001:
             msg_ang.data = -0.05
@@ -123,11 +123,11 @@ class ImagePublisher:
                     self.msg_enemi_dist.data = v1/100+30
                     subscription2 = self.node.create_subscription(
                             Pose,
-                            '/wamv/sensors/gps/gps/fix',
+                            '/boat_pose',
                             self.position,
                             10
                             )
-                    print(f"Enemy distance : {self.msg_enemi_dist.data},Enemy pose : {self.msg_enemi_pose.data}")
+                    print(f"Enemy distance : {self.msg_enemi_dist.data},Enemy pose : {self.msg_enemi_pose.pose.position.x,self.msg_enemi_pose.pose.position.y}")
 
             print(f"Enemy : {ennemy_trouve}, vitesse : {msg_vit.data}, alpha : {msg_ang.data}")
             self.ouuu=msg_ang.data
@@ -141,8 +141,9 @@ class ImagePublisher:
 
 
     def position(self,msg):
-        self.msg_enemi_pose.data.x = msg.pose.data.x + cos(msg.pose.data.theta)*self.msg_enemi_dist.data
-        self.msg_enemi_pose.data.y = msg.pose.data.y + sin(msg.pose.data.theta)*self.msg_enemi_dist.data
+        self.msg_enemi_pose.pose.position.x = msg.position.x + cos(msg.orientation)*self.msg_enemi_dist.data
+        self.msg_enemi_pose.pose.position.y = msg.position.y + sin(msg.orientation)*self.msg_enemi_dist.data
+
 
 
     def run(self):

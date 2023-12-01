@@ -8,25 +8,55 @@ from cv_bridge import CvBridge
 import numpy as np
 import cv2
 
+camera_image_array = []
 
-class Procedure:
+def analyse(mask):
+    a = 0
+    n=len(mask)
+    m=len(mask[0])
+    b=-1
+    for i in range(n):
+        for j in range (m):
+            if (mask[i][j] != 0):
+                a = a+1
+                if (b==-1):
+                    b=j
+    if (a>150):
+        vitesse = 0
+    elif (a>90):
+        vitesse = 1200
+    elif (a>40):
+        vitesse = 18000-(200*a)
+    else:
+        vitesse = 12000
+
+    alpha=0.02*((b-m/2)/360)**3
+
+
+    return vitesse,alpha,a
+
+
+
+class ImagePublisher:
     def __init__(self,args=None):
         # Initialiser le nœud ROS 2
         rclpy.init(args=args)
+        self.ouuu=-1
+        self.phase=1
         self.node = rclpy.create_node('camera_node')
-        self.angle_pub = self.node.create_publisher(Float64, '/waypoint_tracker', 10)
+        self.angle_pub = self.node.create_publisher(Float64, '/wamv/thrusters/main/pos', 10)
         self.thrust_pub = self.node.create_publisher(Float64, '/wamv/thrusters/main/thrust', 10)
         self.boue_pub = self.node.create_publisher(Bool, '/buoy/detect', 10)
-        self.enemy_detect = self.node.create_publisher(Bool, '/ennemy/detect', 10)
+        self.enemy_pub = self.node.create_publisher(Bool, '/ennemy/detect', 10)
 
         # Créer un subscriber pour le topic image
-        subscription1 = self.node.create_subscription(
-                Bool,
-                '/poin_d_interet',
-                self.sub,
+        subscription = self.node.create_subscription(
+                Image,
+                '/wamv/sensors/cameras/main_camera_sensor/image_raw',
+                self.image_callback,
                 10
     		)
-        
+        print('en attente d image')
 
 
 
@@ -46,38 +76,7 @@ class Procedure:
         return trouve,vitesse,alpha,a
 
 
-    def sub(self,msg):
-        if msg.data==True:
-            subscription2 = self.node.create_subscription(
-                    Image,
-                    '/wamv/sensors/cameras/main_camera_sensor/image_raw',
-                    self.image_callback,
-                    10
-                    )
-                    
-                    
     def image_callback(self,msg):
-        
-        bridge = CvBridge()
-        self.img = bridge.imgmsg_to_cv2(msg, desired_encoding="bgr8")
-        lowerred = np.array([3, 3, 65], dtype="uint8")
-        upperred = np.array([8, 8, 75], dtype="uint8")
-        mask = cv2.inRange(self.img, lowerred, upperred)
-        n=0
-        msg_enemy = Bool()
-        
-        
-        
-        msg_vit.data = 3000.0
-        msg_ang.data = -0.05
-        msg_enemy= not(np.all(mask == 0))
-        if  self.ouuu>0.0001:
-            msg_ang.data = 0.05
-        
-   
-        while (n<25):
-            
-            
 
         msg_ang = Float64()
         msg_vit = Float64()
@@ -118,6 +117,8 @@ class Procedure:
             self.ouuu=msg_ang.data
         self.angle_pub.publish(msg_ang)
         self.thrust_pub.publish(msg_vit)
+        self.boue_pub.publish(msg_buoy)
+        self.enemy_pub.publish(msg_enemy)
 
     def run(self):
         # Tourner le nœud pour traiter les rappels
